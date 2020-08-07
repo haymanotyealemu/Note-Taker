@@ -16,7 +16,7 @@ module.exports = function(app) {
 
     // Below code handles when a user request a specific resource
     app.get("/api/notes/:id", function(req, res){
-
+        
         res.json(data[Number(req.params.id)]);
     });
     // ========================================================= //
@@ -45,7 +45,7 @@ module.exports = function(app) {
         let noteId = req.params.id;
         let newId = 0;
         console.log(`Deleting note with id ${noteId}`);
-        data = data.filter(currentNote => {
+        data = data.find(currentNote => {
             return currentNote.id != noteId;
         });
         for (currentNote of data){
@@ -54,8 +54,7 @@ module.exports = function(app) {
         }
         fs.writeFileSync("./db/db.json", JSON.stringify(data));
         res.json(data);
-        
-        
+
     });
     
 }
