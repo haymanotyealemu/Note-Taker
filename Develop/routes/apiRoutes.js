@@ -43,9 +43,10 @@ module.exports = function(app) {
     app.delete("/api/notes/:id", function(req, res){
         
         let noteId = req.params.id;
+
         let newId = 0;
         console.log(`Deleting note with id ${noteId}`);
-        data = data.find(currentNote => {
+        data = data.filter(currentNote => {
             return currentNote.id != noteId;
         });
         for (currentNote of data){
