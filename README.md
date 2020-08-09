@@ -8,7 +8,7 @@ This node server side application is developed for the users to write, save and 
         Clone the repository to your local machine and install npm and run server.js from your terminal.
 
 ## Usage
-![Screenshoot](https://tinyurl.com/y3x2p2ks)
+![Screenshoot](assets/images/Note-Taker.png)
 * Here You can run the application [Heroku Application](https://secret-anchorage-44838.herokuapp.com/)
 ## How to
 * When the user start run the application our html routing codes display start making diffrent types of requests
