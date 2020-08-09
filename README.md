@@ -8,7 +8,7 @@ This node server side application is developed for the users to write, save and 
         Clone the repository to your local machine and install npm and run server.js from your terminal.
 
 ## Usage
-![Screenshoot]()
+![Screenshoot](https://tinyurl.com/yyj6gptg)
 ## How to
 * When the user start run the application our html routing codes display start making diffrent types of requests
 ## Credits
