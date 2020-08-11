@@ -1,6 +1,4 @@
-*# Note-Taker
-![Made by@](https://img.shields.io/badge/License-haymanot-brightgreen.svg)
-![License](https://img.shields.io/badge/License-none-blue.svg)
+# Note-Tker
 ## Description
 This node server side application is developed for the users to write, save and delete notes. The `Express.js` framework is used for quickly and easily establish our API routes and associated HTTP request methods.
 ## Installation
